@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero {
+    background: url('turned-gray-laptop-computer\ \(1\).jpg');
+    background-position: right;
+    height: 600px;
+}
+
+#hero_text {
+    color: white;
+    margin: 50px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #8EA7E9;
+    padding: 8px 16px;
+
+}
+
+.navbar {
+    display: inline-block;
+    width: 100% -150px;
+    text-align: right;
+
+}
+
+.navbar_items {
+    margin: 0px;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.navbar_item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.heder_logo {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+.navbar_item a:hover {
+    color: white;
+}
+
+.navbar_item_contact {
+    background-color: white;
+    padding: 4px 16px;
+    border: 0.5px solid #E5E0FF;
+    border-radius: 8px;
+
+}
+
+.navbar_item_contact a:hover {
+    background-color: aquamarine;
+    color: blue;
+}
+
+#work {
+    padding: 100px 10px;
+    text-align: center;
+}
+
+#row {
+    margin-bottom: 40px;
+
+}
+
+#work h2 {
+    color: #8EA7E9;
+    font-size: 30px;
+}
+.col-3{
+    display: inline-block;
+    width: 30px;
+    padding: 150px;
+    margin: 10px;
+    text-align: center;
+}
+.icon h3{
+color: #8EA7E9;
+font-size: 26px;
+}
+.icon span{
+    color: hotpink;
+    font-size: 60px;
+    font-weight: bold;
+}
+.col-2{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 400%;
+    background-color: lightcoral;
+    margin-bottom:50px;
+}
+.experience_left{
+    background: url('turned-gray-laptop-computer\ \(1\).jpg');
+    background-size: cover;
+    background-position: top right;
+}
+.experience_right{ 
+    padding: 30px;
+    vertical-align: center;
+}
+#experience a{
+
+    background-color: #E5E0FF;
+    color: lightcoral;
+    padding: 6px 25px;
+    border:0.5 solid lightskyblue ;
+    border-radius:8px ;
+    text-decoration: none;
+text-align: center;
+}
+#experience a{
+
+    background-color: #322960;
+    color: lightcoral;
+    padding: 6px 25px;
+    border:0.5 solid lightskyblue ;
+    border-radius:8px ;
+    text-decoration: none;
+text-align: center;
+}
+#experience p{
+    margin-top:40px ;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+#experience h3{
+    margin-top:20px ;
+    text-align: justify;
+    font-family:font-family 'Oswald', sans-serif;
+    font-size: 40px;
+}
